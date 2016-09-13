@@ -9,3 +9,8 @@ docker pull joakimfristedt/kibana-sense
 ```
 docker run -p 5601:5601 joakimfristedt/kibana-sense
 ```
+
+### Wrong settings? Customize and build!
+```
+docker build ./kibana-sense
+```
