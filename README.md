@@ -2,12 +2,10 @@
 
 ### Pull image
 ```
-#!bash
 docker pull joakimfristedt/kibana-sense
 ```
 
 ### Run image
 ```
-#!bash
 docker run -p 5601:5601 joakimfristedt/kibana-sense
 ```
